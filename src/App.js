@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import Corpo from "./Corpo"
+import FundoMobile from "./FundoMobile"
 
 export default function a() {
 
@@ -9,6 +10,8 @@ export default function a() {
             <Navbar />
 
             <Corpo />
+
+            <FundoMobile />
         </div>
 
     )

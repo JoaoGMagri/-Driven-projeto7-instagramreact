@@ -1,4 +1,4 @@
-import Post from "./Posts/Post";
+import Post from "./PostsCorpo/Post";
 
 export default function Posts() {
 
