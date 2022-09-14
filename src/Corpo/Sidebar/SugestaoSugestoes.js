@@ -2,20 +2,17 @@ export default function SugestaoSugestoes() {
 
     return (
 
-
-
-            <div class="sugestao">
-                <div class="usuario">
+            <div className="sugestao">
+                <div className="usuario">
                     <img src="assets/img/bad.vibes.memes.svg" />
-                    <div class="texto">
-                        <div class="nome">bad.vibes.memes</div>
-                        <div class="razao">Segue você</div>
+                    <div className="texto">
+                        <div className="nome">bad.vibes.memes</div>
+                        <div className="razao">Segue você</div>
                     </div>
                 </div>
 
-                <div class="seguir">Seguir</div>
+                <div className="seguir">Seguir</div>
             </div>
-
 
     )
 

@@ -2,11 +2,16 @@ export default function UsuarioSidebar() {
 
     return (
 
-        <div class="usuario">
+        <div className="usuario">
             <img src="assets/img/catanacomics.svg" />
-            <div class="texto">
+            <div className="texto">
                 <strong>catanacomics</strong>
-                Catana
+                <div className="nomedousuario">
+                    Catana
+                    <div>
+                        <ion-icon class="editar" name="pencil-outline"></ion-icon>
+                    </div>
+                </div>
             </div>
         </div>
 

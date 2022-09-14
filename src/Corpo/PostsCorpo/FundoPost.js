@@ -5,7 +5,7 @@ export default function FundoPost() {
 
     return (
 
-        <div class="fundo">
+        <div className="fundo">
             <AcoesFundo />
 
             <CurtidasFundo />

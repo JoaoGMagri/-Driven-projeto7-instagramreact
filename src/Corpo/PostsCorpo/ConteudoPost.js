@@ -2,7 +2,7 @@ export default function ConteudoPost() {
 
     return (
 
-        <div class="conteudo">
+        <div className="conteudo">
             <img src="assets/img/gato-telefone.svg" />
         </div>
 

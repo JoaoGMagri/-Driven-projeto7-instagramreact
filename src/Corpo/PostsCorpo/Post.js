@@ -6,7 +6,7 @@ export default function Post() {
 
     return (
 
-        <div class="post">
+        <div className="post">
             <TopoPost />
 
             <ConteudoPost />

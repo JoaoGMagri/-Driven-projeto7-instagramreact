@@ -5,7 +5,7 @@ export default function SugestoesSidebar() {
 
     return (
 
-        <div class="sugestoes">
+        <div className="sugestoes">
             <TituloSugestoes />
 
             <SugestaoSugestoes />

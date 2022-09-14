@@ -5,7 +5,7 @@ export default function TopoPost() {
 
     return (
 
-        <div class="topo">
+        <div className="topo">
             <UsuarioTopo />
             <AcoesTopo />
         </div>

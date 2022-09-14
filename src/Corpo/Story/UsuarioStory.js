@@ -2,7 +2,7 @@ export default function UsuarioStory() {
 
     return (
 
-        <div class="usuario">
+        <div className="usuario">
             9gag
         </div>
 

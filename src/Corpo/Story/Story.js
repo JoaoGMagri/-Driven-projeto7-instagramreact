@@ -5,7 +5,7 @@ export default function Story() {
 
     return (
 
-        <div class="story">
+        <div className="story">
             <ImageStory />
 
             <UsuarioStory />
