@@ -1,13 +1,18 @@
-import UsuarioTopo from "./Topo/UsuarioTopo"
-import AcoesTopo from "./Topo/AcoesTopo"
-
-export default function TopoPost() {
+export default function TopoPost(props) {
 
     return (
 
         <div className="topo">
-            <UsuarioTopo />
-            <AcoesTopo />
+
+            <div className="usuario">
+                <img src={props.image} alt="" />
+                {props.texto}
+            </div>
+
+            <div className="acoes">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+
         </div>
 
     )

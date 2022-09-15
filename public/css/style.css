@@ -310,11 +310,8 @@ body {
   display: none !important;
 }
 
-.nomedousuario{
-  display: flex;
-}
-
 .editar {
+  display: inline-flex;
   cursor: pointer;
   margin-left: 10px;
 }

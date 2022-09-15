@@ -1,14 +1,15 @@
-import ImageStory from "./ImageStory";
-import UsuarioStory from "./UsuarioStory";
-
-export default function Story() {
+export default function Story(props) {
 
     return (
 
         <div className="story">
-            <ImageStory />
+            <div className="imagem">
+                <img src={props.image} alt="" />
+            </div>
+            <div className="usuario">
+                {props.texto}
+            </div>
 
-            <UsuarioStory />
         </div>
 
     )

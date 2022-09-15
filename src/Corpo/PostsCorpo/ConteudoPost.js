@@ -1,9 +1,9 @@
-export default function ConteudoPost() {
+export default function ConteudoPost(props) {
 
     return (
 
         <div className="conteudo">
-            <img src="assets/img/gato-telefone.svg" />
+            <img src={props.imagepost} alt="" />
         </div>
 
     )

@@ -8,6 +8,7 @@ export default function Sidebar() {
     return (
 
         <div className="sidebar">
+
             <UsuarioSidebar />
 
             <SugestoesSidebar />
@@ -15,6 +16,7 @@ export default function Sidebar() {
             <LinksSideBar />
 
             <CopyRightSidebar />
+            
         </div>
 
     )

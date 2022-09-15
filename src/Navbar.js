@@ -10,8 +10,8 @@ export default function Navbar() {
 
     return (
 
-        <div class="navbar">
-            <div class="container">
+        <div className="navbar">
+            <div className="container">
                 <Logo />
 
                 <LogoMobile />

@@ -6,7 +6,6 @@ export default function Setinha() {
             <ion-icon name="chevron-forward-circle"></ion-icon>
         </div>
 
-
     )
 
 }

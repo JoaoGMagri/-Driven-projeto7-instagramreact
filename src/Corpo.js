@@ -9,7 +9,7 @@ export default function Corpo() {
 
         <div className="corpo">
             <div className="esquerda">
-                <Stories />
+                <Stories/>
 
                 <Posts />
             </div>

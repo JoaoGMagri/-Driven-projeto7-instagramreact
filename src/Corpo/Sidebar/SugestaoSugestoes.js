@@ -1,13 +1,13 @@
-export default function SugestaoSugestoes() {
+export default function SugestaoSugestoes(props) {
 
     return (
 
             <div className="sugestao">
                 <div className="usuario">
-                    <img src="assets/img/bad.vibes.memes.svg" />
+                    <img src={props.image} alt=""/>
                     <div className="texto">
-                        <div className="nome">bad.vibes.memes</div>
-                        <div className="razao">Segue você</div>
+                        <div className="nome">{props.nome}</div>
+                        <div className="razao">{props.razao}</div>
                     </div>
                 </div>
 

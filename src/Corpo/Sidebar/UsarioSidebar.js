@@ -3,13 +3,13 @@ export default function UsuarioSidebar() {
     return (
 
         <div className="usuario">
-            <img src="assets/img/catanacomics.svg" />
+            <img src="assets/img/catanacomics.svg" alt=""/>
             <div className="texto">
                 <strong>catanacomics</strong>
-                <div className="nomedousuario">
+                <div>
                     Catana
-                    <div>
-                        <ion-icon class="editar" name="pencil-outline"></ion-icon>
+                    <div className="editar">
+                        <ion-icon name="pencil-outline"></ion-icon>
                     </div>
                 </div>
             </div>
