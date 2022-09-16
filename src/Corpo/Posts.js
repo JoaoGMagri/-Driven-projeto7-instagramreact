@@ -3,7 +3,7 @@ import ObjetoPost from "../Objetos/ObjetoPosts";
 
 export default function Posts() {
 
-    const array = ObjetoPost()
+    const array = ObjetoPost();
     return (
 
         <div className="posts">
@@ -14,7 +14,6 @@ export default function Posts() {
                 imagecurtida={item.imagecurtida}
                 ultimacurtida={item.ultimacurtida}
                 totaldecuridas={item.totaldecuridas}
-                id ={i}
                 key={i} />
             )}
         </div>
