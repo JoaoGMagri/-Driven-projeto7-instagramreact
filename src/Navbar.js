@@ -1,9 +1,4 @@
-import Logo from "./Navbar/Logo";
-import LogoMobile from "./Navbar/LogoMobile";
-import InstagramMobile from "./Navbar/InstagramMobile";
-import Pesquisar from "./Navbar/Pesquisa";
-import Icones from "./Navbar/Icones";
-import IconesMobile from "./Navbar/IconesMobile";
+
 
 
 export default function Navbar() {
@@ -11,19 +6,40 @@ export default function Navbar() {
     return (
 
         <div className="navbar">
+
             <div className="container">
-                <Logo />
 
-                <LogoMobile />
+                <div className="logo">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <div className="separador"></div>
+                    <img src="assets/img/logo.png" alt="" />
+                </div>
 
-                <InstagramMobile />
+                <div className="logo-mobile">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
 
-                <Pesquisar />
+                <div className="instagram-mobile">
+                    <img src="assets/img/logo.png" alt="" />
+                </div>
 
-                <Icones />
+                <div className="pesquisa">
+                    <input type="text" placeholder="Pesquisar" />
+                </div>
 
-                <IconesMobile />
+                <div className="icones">
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                    <ion-icon name="compass-outline"></ion-icon>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="person-outline"></ion-icon>
+                </div>
+
+                <div className="icones-mobile">
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+
             </div>
+
         </div>
 
     )

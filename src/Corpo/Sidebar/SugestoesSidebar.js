@@ -1,5 +1,4 @@
 import SugestaoSugestoes from "./SugestaoSugestoes"
-import TituloSugestoes from "./TituloSugestoes"
 import ObjetoSugestoes from "../../Objetos/ObjetoSugestoes"
 
 export default function SugestoesSidebar() {
@@ -8,7 +7,11 @@ export default function SugestoesSidebar() {
     return (
 
         <div className="sugestoes">
-            <TituloSugestoes />
+
+            <div className="titulo">
+                Sugestões para você
+                <div>Ver tudo</div>
+            </div>
 
             {array.map((item, i) => <SugestaoSugestoes
                 image={item.image}

@@ -9,9 +9,9 @@ export default function Post(props) {
         <div className="post">
             <TopoPost image={props.image} texto ={props.texto}/>
 
-            <ConteudoPost imagepost={props.imagepost} />
+            <ConteudoPost id={props.id} imagepost={props.imagepost} />
 
-            <FundoPost imagecurtida={props.imagecurtida} ultimacurtida ={props.ultimacurtida}  totaldecuridas={props.totaldecuridas}/>
+            <FundoPost id={props.id} imagecurtida={props.imagecurtida} ultimacurtida ={props.ultimacurtida}  totaldecuridas={props.totaldecuridas}/>
         </div>
 
     )

@@ -7,7 +7,7 @@ export default function objetoPost() {
             imagepost: "assets/img/gato-telefone.svg",
             imagecurtida: "./assets/img/respondeai.svg",
             ultimacurtida: "respondeai",
-            totaldecuridas: "101.523"
+            totaldecuridas: 101523
         },
         {
             image: "assets/img/barked.svg",
@@ -15,7 +15,7 @@ export default function objetoPost() {
             imagepost: "assets/img/dog.svg",
             imagecurtida: "assets/img/adorable_animals.svg",
             ultimacurtida: "adorable_animals",
-            totaldecuridas: "99.159"
+            totaldecuridas: 99159
         }
     ];
 
